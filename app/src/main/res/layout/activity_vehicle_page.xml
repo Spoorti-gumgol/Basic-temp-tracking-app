@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51819E"
+    tools:context=".vehicle_page" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:text="About Your Vehicle!!"
+        android:textAlignment="center"
+        android:textColor="#080E2C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/motorcycyle_img_egg" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="175dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="52dp"
+        android:text="The beating heart of any motorcycle is its engine, even if the bike is an electric vehicle with a motor and battery. A common motorcycle classification is engine size, measured in cubic centimeters (cc). Higher cc engines are heavier and require more power to run."
+        android:textAlignment="center"
+        android:textColor="#031E2E"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="174dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="328dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/motorcycyle_img_eggg" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="211dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="292dp"
+        android:text="Few recommended tune-ups:\n1.You should change your oil often depending on your manufacturer’s recommended service intervals.\n2. Check fluids and top off low levels between maintenance trips maintain functionality and prevent costly repairs\n3. Cover your bike when it’s not in use — either by parking it in a covered space or using a weatherproof tarp."
+        android:textAlignment="center"
+        android:textColor="#031E2E"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="524dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/motorcycyle_img_eg" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="176dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="500dp"
+        android:text="Safety is crucial when riding a motorcycle since they leave you exposed to road hazards in ways that passenger cars and trucks do not. They lack airbags and windshields in most cases, and don’t feature rollover protections or reinforced bumpers to stabilize you in the event of a collision. Most lack seatbelts as well."
+        android:textAlignment="center"
+        android:textColor="#031E2E"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/guback"
+        android:layout_width="62dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#51819E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
